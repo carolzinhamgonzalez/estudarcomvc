@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafio de recrutamento de front-end
+====================================
+Este repositório contém o desafio de recrutamento para a vaga de front-end da Estudar com Você.
 
-## Available Scripts
+Este desafio tem como objetivos avaliar seu conhecimento técnico, e como você lida com prazos, requisitos e com uma situação muito semelhante às que você enfrentará no trabalho.
 
-In the project directory, you can run:
+---
+## Descrição do desafio
 
-### `npm start`
+Seu objetivo será implementar um mockup da dashboard do nosso site.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A dashboard é a nossa pagina principal, para o qual o aluno é levado após o login. Nela apresentamos todas as matérias para o aluno e ele pode explorar as matérias que oferecemos para a sua faculdade, e a partir dela chegar ao conteúdo que ele deseja estudar. Se você já usou algum site de cursos online (eg. *Coursera, Khan Academy, Duolingo...*) ou serviços de vídeo como *YouTube* ou *Netflix* você pode estar familiarizado com a função que a dashboard desempenha.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<img src="./screens/dash.png" width="400"/>
 
-### `npm test`
+## Detalhes
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sua missão será criar um mockup da listagem de matérias, separadas entre matérias personalizadas (matérias que criamos para faculdades especificas), e matérias gerais. Uma matéria gerais é definido pela flag `generic`, se esta flag for `true` a matéria é geral, caso contrário ela é personalizada.
 
-### `npm run build`
+Não se preocupe em reproduzir o design da nossa tela, ele está incluído apenas como inspiração, o que iremos analisar é como você parte de dados e cria uma tela a partir disso
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você tem total liberdade para decidir qual stack / tecnologias irá utilizar, deixamos apenas como sugestão o que gostamos de usar:
+- React
+- Bootstrap
+- SASS
+- Typescript
+- Webpack
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Estamos fornecendo na pasta `assets` um json contendo uma lista de matérias.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Critérios de avaliação
 
-### `npm run eject`
+A sua solução será avaliada segundo os seguintes critérios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Funcionalidade
+- Qualidade do código (organização, legibilidade, modularidade, controle de versão...)
+- Prazo (não estamos definindo um prazo no qual o desfio deve ser concluído, a solução que o candidato julgar como final e o tempo necessário para se chegar a ela serão critérios de avaliação)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Definimos também critérios que não são absolutamente necessários mas valem pontos extras:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Responder bem a diferentes tamanhos de tela
+- Incluir alguma funcionalidade extra
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Entregáveis
 
-## Learn More
+A solução deve ser entregue na forma de um link para o repositório hospedando o seu código, o readme deve conter instruções de como executá-lo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+Qualquer duvida entre em contato conosco.  
+Boa Sorte!  
+Equipe Estudar com Você
