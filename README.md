@@ -2,9 +2,19 @@ Desafio de recrutamento de front-end
 ====================================
 Este repositório contém o desafio de recrutamento para a vaga de front-end da Estudar com Você.
 
-Este desafio tem como objetivos avaliar seu conhecimento técnico, e como você lida com prazos, requisitos e com uma situação muito semelhante às que você enfrentará no trabalho.
+Este desafio tem como objetivos avaliar o conhecimento técnico, e como você lida com prazos, requisitos e com uma situação muito semelhante às que você enfrentará no trabalho.
 
 ---
+## Requisitos com divisão de atividades
+Objetivo: implementar um mockup da dashboard do site da Estudar com Você.
+
+* [] Listar as matérias separando-as entre personalizadas e gerais.
+* [] Responder bem a diferentes tamanhos de tela.
+* [] Incluir alguma funcionalidade extra.
+* [] Readme deve conter instruções de como executar o código. 
+
+---
+
 ## Descrição do desafio
 
 Seu objetivo será implementar um mockup da dashboard do nosso site.
