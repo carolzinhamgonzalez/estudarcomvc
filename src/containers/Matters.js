@@ -2,14 +2,34 @@ import React, { Component } from 'react';
 import './Matters.css';
 import { connect } from 'react-redux';
 
-class Matter extends Component { 
+// let arr = this.props.base[0];
 
+class Matter extends Component { 
   render() {
-    console.log(this.props.base[0]);
+  
+    
+    // console.log(arr);
     
     return (
       <main className="conteiner-fluid bg-danger main-style">
-        {this.props.base[0].map(n => <p key={n.id}> {n.name} </p>)}
+        {/* {this.props.base[0].map(n => <p key={n.id}> {n.name} </p>)} */}
+        {this.props.base[0].map(n => 
+          n.generic === true ? <p key={n.id}> {n.name} </p>
+          : <h1 key={n.id}> {n.name} </h1>
+        )}
+      </main>
+    )
+  }
+}
+
+class GenericMatter extends Component { 
+  render() {    
+    return (
+      <main className="conteiner-fluid bg-danger main-style">
+        {this.props.base[0].map(n => 
+          n.generic === true ? <p key={n.id}> {n.name} </p>
+          : console.log(n.name)
+        )}
       </main>
     )
   }

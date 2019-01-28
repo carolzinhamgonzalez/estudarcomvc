@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-// import Matters from '../containers/Matters';
+import { Matters }from '../containers/Matters';
 
 const header = () => {
   return (
@@ -8,7 +8,7 @@ const header = () => {
       <div className="container-fluid">
         <a className="navbar-brand icon-user" id="user-color" href="#"> Visitante</a>
         
-        {/* <div className="dropdown">
+        <div className="dropdown">
           <a className="btn dropdown-toggle text-color" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Visualizar matérias
           </a>
@@ -17,7 +17,7 @@ const header = () => {
             <a className="dropdown-item" href="#">Personalizadas</a>
             <a className="dropdown-item" href="#">Gerais</a>
           </div>
-        </div> */}
+        </div>
 
       </div>
     </nav>
