@@ -1,11 +1,8 @@
 #nav-color{
     background-color: #253e40;
+    height: 10vh;
 }
 
 .text-color, #user-color{
     color: #F2F2F2;
 }
-
-/* .icon-user{
-    color: #F2F2F2;
-} */
