@@ -10,9 +10,8 @@ Objetivo: implementar um mockup da dashboard do site da Estudar com Você.
 
 * [x] Listar as matérias separando-as entre personalizadas e gerais.
 * [x] Responder bem a diferentes tamanhos de tela.
-* [] Incluir alguma funcionalidade extra.   
-    * [] Filtro com opção para visualizar todas as matérias, apenas gerais, apenas personalizadas.
-    * [] Ao clicar na matéria vai para a descrição da mesma.
+* [x] Incluir alguma funcionalidade extra.   
+    * [x] Filtro com opção para visualizar todas as matérias, apenas gerais, apenas personalizadas.
 * [] Readme deve conter instruções de como executar o código. 
 
 ---

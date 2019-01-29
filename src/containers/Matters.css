@@ -2,15 +2,6 @@
     margin-top: 15vh;
 }
 
-.size{
-    /* min-width:50px;
-    min-height:50px;
-    min-width:100px;
-    min-height:100px;
-    width: auto;
-    height: auto; */
-}
-
 .p-generic, .p-highlight{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -25,12 +16,3 @@
     color: #327F70;
     border-color: #327F70;
 }
-
-/* .img-generic{
-    background-image: url("../imgs/generic.PNG");
-    background-repeat: no-repeat;
-    min-width:50px;
-    min-height:50px;
-    width: auto;
-    height: auto;
-} */

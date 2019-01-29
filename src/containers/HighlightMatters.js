@@ -12,7 +12,6 @@ class HighlightMatters extends Component {
             {this.props.base[0].map(n => n.highlight === true ? 
                 <div className="col-sm-3 size border b-highlight m-1 d-flex justify-content-center">
                   <p className="p-highlight font-weight-bold img-generic" key={n.id} > 
-                    {/* <img className="col-sm-3" alt={n.name} src="../imgs/generic.PNG"></img> */}
                     {n.name} 
                   </p>
                 </div>  
@@ -25,15 +24,12 @@ class HighlightMatters extends Component {
   }
 }
 
-
 const mapStateToProps = state => {
   return {
     base: state.base
   }
 }
 // função para mapear os states
-
-
 
 export default connect (mapStateToProps)(HighlightMatters);
 
