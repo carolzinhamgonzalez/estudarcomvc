@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
-// import Matters from '../containers/Matters';
+import { Route, Link} from 'react-router-dom';
+// import Highlight from '../containers/HighlightMatters';
+// import GenericMatters from '../containers/GenericMatters';
 
 const header = () => {
   return (
@@ -13,9 +15,9 @@ const header = () => {
             Visualizar matérias
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a className="dropdown-item" href= "#">Todas</a>
-            <a className="dropdown-item" href="#">Personalizadas</a>
-            <a className="dropdown-item" href="#">Gerais</a>
+            <Link to="/" className="dropdown-item">Todas</Link>
+            <Link to="/personalizadas" className="dropdown-item"> Personalizadas</Link>
+            <Link to="/gerais" className="dropdown-item">Gerais</Link>
           </div>
         </div>
 
