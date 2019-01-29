@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Matters.css';
 import { connect } from 'react-redux';
 
+// filtro e style das disciplinas genéricas
 class GenericMatters extends Component { 
   render() {
     return (   
@@ -11,7 +12,7 @@ class GenericMatters extends Component {
           {this.props.base[0].map(n => n.generic === true ? 
               <div className="col-sm-3 size border b-generic m-1 pt-2 d-flex justify-content-center flex-row">
                 <div className="d-flex align-self-center">  
-                  <p className="p-generic font-weight-bold img-generic" key={n.id} > 
+                  <p className="p-generic font-weight-bold" key={n.id} > 
                     {n.name} 
                   </p>
                 </div>  

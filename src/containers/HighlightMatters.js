@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Matters.css';
 import { connect } from 'react-redux';
 
+// filtro e style das disciplinas personalizadas
 class HighlightMatters extends Component { 
   render() {
     return (   
@@ -10,7 +11,7 @@ class HighlightMatters extends Component {
         <div className="row d-flex">
           {this.props.base[0].map(n => n.highlight === true ? 
               <div className="col-sm-3 size border b-highlight m-1 pt-2 d-flex justify-content-center">
-                <p className="p-highlight font-weight-bold img-generic" key={n.id} > 
+                <p className="p-highlight font-weight-bold" key={n.id} > 
                   {n.name} 
                 </p>
               </div>  

@@ -1,3 +1,5 @@
+// reduce do Redux (faz o despacho da ação para o Redux)
+
 const initState = {
     base: []
 }

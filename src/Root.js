@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import App from './App'
 
+// configuração do Router com o Redux
 const Root = ({ store }) => (
   <Provider store={store}>
     <Router>

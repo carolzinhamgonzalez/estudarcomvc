@@ -2,7 +2,21 @@ Desafio de recrutamento de front-end
 ====================================
 Este repositório contém o desafio de recrutamento para a vaga de front-end da Estudar com Você.
 
-Este desafio tem como objetivos avaliar o conhecimento técnico, e como você lida com prazos, requisitos e com uma situação muito semelhante às que você enfrentará no trabalho.
+# Para entrar na aplicação: 
+* Acesse: https://goofy-ritchie-4f3cb7.netlify.com/
+* A aplicação mostra todas as disciplinas que o usuário possui, dividindo-as entre *gerais* e *personalizadas*
+* É possível filtrar para aparecer somente as gerais ou personalizadas.
+
+# Para executar o código localmente:
+* É necessário ter instalado o node.js e o react
+* Após instalado dar *npm start* no console, dentro da pasta da aplicação. Em instantes a página irá abrir. 
+
+## Considerações
+Essa aplicação utiliza:
+* React 
+    * Redux
+    * Router
+* Bootstrap
 
 ---
 ## Requisitos com divisão de atividades
@@ -12,7 +26,7 @@ Objetivo: implementar um mockup da dashboard do site da Estudar com Você.
 * [x] Responder bem a diferentes tamanhos de tela.
 * [x] Incluir alguma funcionalidade extra.   
     * [x] Filtro com opção para visualizar todas as matérias, apenas gerais, apenas personalizadas.
-* [] Readme deve conter instruções de como executar o código. 
+* [x] Readme deve conter instruções de como executar o código. 
 
 ---
 

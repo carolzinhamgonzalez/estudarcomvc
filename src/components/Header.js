@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.css';
-import { Route, Link} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
-const header = () => {
+// contrução do header(cabeçalho)
+const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm fixed-top navbar-light" id="nav-color">
       <div className="container-fluid">
@@ -24,4 +25,4 @@ const header = () => {
   )
 };
 
-export default header;
+export default Header;
