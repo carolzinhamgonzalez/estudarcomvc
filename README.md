@@ -8,9 +8,11 @@ Este desafio tem como objetivos avaliar o conhecimento técnico, e como você li
 ## Requisitos com divisão de atividades
 Objetivo: implementar um mockup da dashboard do site da Estudar com Você.
 
-* [] Listar as matérias separando-as entre personalizadas e gerais.
-* [] Responder bem a diferentes tamanhos de tela.
-* [] Incluir alguma funcionalidade extra.
+* [x] Listar as matérias separando-as entre personalizadas e gerais.
+* [x] Responder bem a diferentes tamanhos de tela.
+* [] Incluir alguma funcionalidade extra.   
+    * [] Filtro com opção para visualizar todas as matérias, apenas gerais, apenas personalizadas.
+    * [] Ao clicar na matéria vai para a descrição da mesma.
 * [] Readme deve conter instruções de como executar o código. 
 
 ---

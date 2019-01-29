@@ -14,8 +14,6 @@ const store = createStore(rootReducer);
 store.dispatch({type: 'ADD_BASE', base: Data});
 // criação de ação e despacho para dar update no state
 
-
-
 store.subscribe(() => {
     console.log('state updated');
     console.log(store.getState());

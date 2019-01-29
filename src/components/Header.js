@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Matters }from '../containers/Matters';
+// import Matters from '../containers/Matters';
 
 const header = () => {
   return (
@@ -13,7 +13,7 @@ const header = () => {
             Visualizar matérias
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a className="dropdown-item" href= {Matters}>Todas</a>
+            <a className="dropdown-item" href= "#">Todas</a>
             <a className="dropdown-item" href="#">Personalizadas</a>
             <a className="dropdown-item" href="#">Gerais</a>
           </div>

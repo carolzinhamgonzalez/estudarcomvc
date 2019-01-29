@@ -1,8 +1,36 @@
-.main-style{
-    margin-top: 10vh;
-    /* height: 80%; */
+.container{
+    margin-top: 15vh;
 }
 
-/* .text-color, #user-color{
-    color: #253e40;
+.size{
+    /* min-width:50px;
+    min-height:50px;
+    min-width:100px;
+    min-height:100px;
+    width: auto;
+    height: auto; */
+}
+
+.p-generic, .p-highlight{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.p-highlight, .b-highlight{
+    color: #036D7F;
+    border-color: #036D7F;
+}
+
+.p-generic, .b-generic{
+    color: #327F70;
+    border-color: #327F70;
+}
+
+/* .img-generic{
+    background-image: url("../imgs/generic.PNG");
+    background-repeat: no-repeat;
+    min-width:50px;
+    min-height:50px;
+    width: auto;
+    height: auto;
 } */
