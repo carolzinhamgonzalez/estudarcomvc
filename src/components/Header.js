@@ -15,7 +15,7 @@ const header = () => {
             Visualizar matérias
           </a>
           <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <Link to="/" className="dropdown-item">Todas</Link>
+            {/* <Link to="/" className="dropdown-item">Todas</Link> */}
             <Link to="/personalizadas" className="dropdown-item"> Personalizadas</Link>
             <Link to="/gerais" className="dropdown-item">Gerais</Link>
           </div>
@@ -25,5 +25,6 @@ const header = () => {
     </nav>
   )
 };
+
 
 export default header;

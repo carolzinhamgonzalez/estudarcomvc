@@ -16,7 +16,7 @@ class App extends Component {
         <HighlightMatters />
         <GenericMatters />
       
-        <Route exact path="/" component={App} />
+        {/* <Route exact path="/" component={App} /> */}
         <Route exact path="/personalizadas" component={HighlightMatters} />
         <Route exact path="/gerais" component={GenericMatters} />
 
